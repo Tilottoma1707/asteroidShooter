@@ -10,9 +10,9 @@ this.update = function() {
 
   this.render = function() {
     push();
-    stroke("red");
+    stroke("yellow");
     strokeWeight(4);
-    point(this.pos.x, this.pos.y);
+    rect(this.pos.x, this.pos.y,4,1.2);
     pop();
   };
   this.hits = function(asteroid) {
