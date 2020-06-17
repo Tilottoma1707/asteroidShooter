@@ -14,6 +14,11 @@ function setup() {
 
 function draw() {
   background(0);
+
+  fill(255)
+  textSize(23)
+  text("Rotate and press space to shoot",windowWidth/2.4,windowHeight/3.6)
+
   ship.render();
   ship.turn();
   ship.update();
